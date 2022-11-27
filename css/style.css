@@ -156,7 +156,7 @@ body {
     transition: 0.9s;
     background-color: #9f1c1c;
   }
-  .services .icon-box {
+  /* .services .icon-box {
     text-align: center;
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
@@ -285,7 +285,7 @@ body {
   
   .services .iconbox-teal:hover .icon path {
     fill: #11dbcf;
-  }
+  } */
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
