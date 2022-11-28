@@ -15,9 +15,9 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="icon" href="images/sarath.png" />
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <title>Sarath Pallath</title>
 </head>
@@ -218,7 +218,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-4 mt-3 mb-3">
-          <div class="card mt-3" >
+          <div class="card mt-3">
             <img src="images/istockphoto-1334906074-170667a.jpg" class="card-img-top img-fluid" alt="img">
             <div class="card-body">
               <h5 class="card-title text-capitalize text-center">web designing</h5>
@@ -230,7 +230,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4 mt-3 mb-3">
-          <div class="card mt-3" >
+          <div class="card mt-3">
             <img src="images/istockphoto-1334906074-170667a.jpg" class="card-img-top img-fluid" alt="img">
             <div class="card-body">
               <h5 class="card-title text-capitalize text-center">Digital marketting</h5>
@@ -242,7 +242,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-4 mt-3 mb-3">
-          <div class="card mt-3" >
+          <div class="card mt-3">
             <img src="images/istockphoto-1334906074-170667a.jpg" class="card-img-top img-fluid" alt="img">
             <div class="card-body">
               <h5 class="card-title text-capitalize text-center">web development</h5>
@@ -256,45 +256,202 @@
       </div>
     </div>
 
-    
-  </section>
-  <section class="contact">
 
   </section>
-  <section class="footer">
-    <footer class="">
+  <section class="contact-section">
+    <section name="contact" class="bg-dark">
+      <div class="section-title">
+        <h2>
+          contact
+        </h2>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-8">
+            <form name="" id="submit-form">
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label class="text-capitalize text-white">Full Name:</label>
+                  <input type="text" class="form-control" id="fname" name="name"
+                    data-validation-required-message="Please enter your name." />
+                  <p class="help-block"></p>
+                </div>
+              </div>
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label class="text-capitalize text-white">Phone Number:</label>
+                  <input type="text" class="form-control" id="country" name="color" required
+                    data-validation-required-message="Please enter your phone number." />
+                </div>
+              </div>
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label class="text-capitalize text-white">Email Address:</label>
+                  <input type="email" class="form-control" id="lname" name="email" required
+                    data-validation-required-message="Please enter your email address." />
+                </div>
+              </div>
+              <!-- <div class="control-group form-group">
+                <div class="controls">
+                  <label class="text-capitalize text-white">Phone Number:</label>
+                  <input type="email" class="form-control" id="country" name="color" required
+                    data-validation-required-message="Please enter your phone number." />
+                </div>
+              </div> -->
+              <div class="control-group form-group mb-3">
+                <div class="controls">
+                  <label class="text-capitalize text-white">Message:</label>
+                  <textarea rows="10" cols="100" class="form-control" id="subject" name="message" required
+                    data-validation-required-message="Please enter your message" maxlength="999"
+                    style="resize: none"></textarea>
+                </div>
+              </div>
+              <!-- <div id="success"></div>
+              For success/fail messages -->
+              <button type="submit" class="btn btn-primary mb-3 bg-secondary d-grid gap-2 col-6 mx-auto"
+                id="sendMessageButton">
+                Send Message
+              </button>
+            </form>
+            <!-- <div class="container">
+              <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>Swing by for a cup of coffee, or leave us a message:</p>
+              </div>
+              <div class="row">
+      
+                  <div class="column">
+                      <form id="submit-form" action="">
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="name" placeholder="Your name..">
+                          <label for="lname">Email</label>
+                          <input type="text" id="lname" name="email" placeholder="Your Email..">
+                          <label for="country">Country</label>
+                          <select id="country" name="color">
+                              <option value="australia">Australia</option>
+                              <option value="canada">Canada</option>
+                              <option value="usa">USA</option>
+                          </select>
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="message" placeholder="Write something.."
+                              style="height:170px"></textarea>
+                          <input type="submit" value="Submit">
+                      </form>
+                  </div>
+                  <div class="column">
+                      <img src="crossroads.png" style="width:100%">
+                  </div>
+              </div>
+          </div> -->
 
-    </footer>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <!-- <div class="w-100 modal-fullscreen">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15669.799592993953!2d76.28837977770998!3d10.929348184744502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd3eb5208e51cbdf!2sVazhenkada%20Sree%20Narasimha%20Moorthi%20Temple!5e0!3m2!1sen!2sin!4v1669108986289!5m2!1sen!2 "
+                style="border: 0; width: 100%; height: 450px">
+              </iframe>
+            </div> -->
+            <div class="col-lg-2"></div>
+          </div>
+        </div>
+      </div>
 
-  </section>
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    </section>
+    <section>
+      <!-- <div class="container mt-5" data-aos="fade-up">
+        <div class="info-wrap">
+           -->
+      <!-- <div class="col-lg-3 col-md-6 info">
+
+              <h4 class="text-center "><i class="bi bi-geo-alt"></i>&nbsp;Location:</h4>
+              <p class="text-center text-uppercase"><br />SREE NARASIMHA MOORTHI TEMPLE<br>
+                VAZHENKADA(PO),ANAMANGAD(Via),<br>Malappuram(Dt),Kerala-679357.</br></p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+
+              <h4 class="text-center"><i class="bi bi-clock"></i>&nbsp;Open Hours:</h4>
+              <p class="text-center">Monday-Saturday:<br />11:00 AM - 2300 PM</p>
+            </div> -->
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-6 col-md-6 info   animate__animated animate__backInDown animate__delay-2s border border-3 rounded-pill border-danger">
+
+            <h4 class="text-center mt-2 "></i>&nbsp;Email:</h4>
+            <p class="text-center ">vazhenkadanarasimhamoorthitemple@gmail.com</p>
+          </div>
+
+          <div class="col-lg-6 col-md-6 info mt-4 mt-lg-0 animate__animated animate__backInDown animate__delay-2s border border-3 rounded-pill border-danger">
+
+            <h4 class="text-center mt-2"><i class="bi bi-phone"></i>&nbsp;Call:</h4>
+            <p class="text-center">+1 5589 55488 51<br />+1 5589 22475 14</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+    <section class="footer bg-white">
+      <footer class="">
+        <div class="container" data-aos="">
+          <div class="row">
+            <div class="animate__animated animate__backInDown animate__delay-2s">
+
+              <!-- <div class="animate__animated animate__backInDown animate__delay-2s">Example</div> -->
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </section>
+    <div id="preloader"></div>
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
 
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <!--<script src="assets/vendor/php-email-form/validate.js"></script> -->
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <!--<script src="assets/vendor/php-email-form/validate.js"></script> -->
 
-  <!-- Template Main JS File -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script>
-    var typed = new Typed(".auto-type", {
-      strings: ["Designer", "Developer", "Freelancer", "Photographer"],
-      typeSpeed: 150,
-      backSpeed: 150,
-      loop: true,
-    });
-  </script>
+    <!-- Template Main JS File -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Designer", "Developer", "Freelancer", "Photographer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
+    <script>
+      $("#submit-form").submit((e) => {
+        e.preventDefault()
+        $.ajax({
+          url: "https://script.google.com/macros/s/AKfycbyz62rsRnzZzsls_sGDu0cXE6cXa0NAyBiMEsGbn3ivfpzQNFFTHl7Uvrz9Vf8pxTva/exec",
+          data: $("#submit-form").serialize(),
+          method: "post",
+          success: function (response) {
+            alert("Form submitted successfully")
+            window.location.reload()
+            //window.location.href="https://google.com"
+          },
+          error: function (err) {
+            alert("Something Error")
 
-  <script src="assets/js/main.js"></script>
+          }
+        })
+      })
+    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
