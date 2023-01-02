@@ -38,11 +38,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   .container h3{
     font-size: 80px;
     font-weight: 600;
+    margin-top: 5%;
   }
   .about .content h3 {
     font-weight: 700;
@@ -86,7 +87,7 @@ body {
   
   .section-title {
     text-align: center;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
   
   .section-title h2 {
@@ -94,7 +95,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     position: relative;
     color: #45505b;
   }
@@ -286,6 +287,30 @@ body {
   .services .iconbox-teal:hover .icon path {
     fill: #11dbcf;
   } */
+  #footer {
+    /* background: #f7f8f9; */
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
