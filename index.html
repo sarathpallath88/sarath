@@ -23,7 +23,7 @@
 </head>
 
 <body class="">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar_top">
     <div class="container-fluid">
       <a class="navbar-brand text-capitalize logo" href="#">sarath pallath</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -36,16 +36,16 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-uppercase " href="#">About</a>
+            <a class="nav-link text-uppercase " href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-uppercase " href="#">profile</a>
+            <a class="nav-link text-uppercase " href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-uppercase " href="#">Gallery</a>
+            <a class="nav-link text-uppercase " href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-uppercase " href="#">contact</a>
+            <a class="nav-link text-uppercase " href="#contact">contact</a>
           </li>
         </ul>
 
@@ -82,12 +82,13 @@
     </div>
     </div>
   </section>
-  <section class="about bg-transparent bg-light">
+  <section class="about bg-transparent bg-light"  id="about">
     <div class="container" data-aos="fade-up">
 
-      <div class="section-title">
+      <div class="section-title mt-3">
         <h2>About</h2>
-        <p text-center>I am Sarath, a passionate programming freelancer with more than four-years of experience in web app and Website  development and design.which includes full front-end design.</p>
+        <p text-center>I am Sarath, a passionate programming freelancer with more than four-years of experience in web
+          app and Website development and design.which includes full front-end designing.</p>
         <div class="row">
           <div class="col-lg-4">
             <img src="images/sarath-image.jpg" class="img-fluid" alt="">
@@ -103,7 +104,8 @@
               <div class="col-lg-6">
                 <ul>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.sarathpallath.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.sarathpallath.com</span>
+                  </li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+919645218821</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Palakkad-Kerala,India</span></li>
                 </ul>
@@ -132,11 +134,11 @@
 
   </section>
   <section>
-    <section id="skills" class="skills section-bg">
+    <section id="#skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Skills</h2>
+          <h2 id="skills">Skills</h2>
           <p></p>
         </div>
 
@@ -203,11 +205,11 @@
       </div>
     </section>
   </section>
-  <section class=" d-flex justify-content-center">
+  <section class=" d-flex justify-content-center" id="services">
 
     <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2>Services</h2>
+        <h2 >Services</h2>
         <!-- <p>I provide these service at reasonable rates and do it responsibly .</p> -->
       </div>
       <div class="row">
@@ -251,9 +253,9 @@
 
   </section>
   <section class="">
-    <section name="contact" class="bg-dark">
+    <section name="contact" class="bg-dark" id="contact">
       <div class="section-title">
-        <h2>
+        <h2 class="text-white">
           contact
         </h2>
       </div>
@@ -266,7 +268,7 @@
                 <div class="controls">
                   <label class="text-capitalize text-white">Full Name:</label>
                   <input type="text" class="form-control" id="fname" name="name"
-                    data-validation-required-message="Please enter your name." />
+                    data-validation-required-message="Please enter your name." required />
                   <p class="help-block"></p>
                 </div>
               </div>
@@ -274,7 +276,7 @@
                 <div class="controls">
                   <label class="text-capitalize text-white">Phone Number:</label>
                   <input type="text" class="form-control" id="country" name="color" required
-                    data-validation-required-message="Please enter your phone number." />
+                    data-validation-required-message="Please enter your phone number."  />
                 </div>
               </div>
               <div class="control-group form-group">
@@ -301,7 +303,7 @@
               </div>
               <!-- <div id="success"></div>
               For success/fail messages -->
-              <button type="submit" class="btn btn-primary mb-3 bg-secondary d-grid gap-2 col-6 mx-auto"
+              <button type="submit" class="btn btn-primary mb-3 bg-secondary d-grid gap-2 col-4 mx-auto"
                 id="sendMessageButton">
                 Send Message
               </button>
@@ -371,7 +373,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 info   animate__animated animate__backInDown animate__delay-2s">
 
-            <h4 class="text-center mt-2 "><i class="bi bi-envelope"></i>&nbsp;Email:</h4>
+            <h4 class="text-center mt-2 "><i class="bi bi-envelope"></i>&nbsp;Email</h4>
             <p class="text-center">pallathsarath88@gmail.com</p>
           </div>
 
@@ -394,14 +396,14 @@
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-messenger"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-telegram"></i></a>
         </div>
       </div>
     </footer>
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a> 
+        class="bi bi-arrow-up-short"></i></a>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -443,6 +445,23 @@
           }
         })
       })
+    </script>
+     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 50) {
+            document.getElementById("navbar_top").classList.add("fixed-top");
+            // add padding top to show content behind navbar
+            navbar_height = document.querySelector(".navbar").offsetHeight;
+            document.body.style.paddingTop = navbar_height + "px";
+          } else {
+            document.getElementById("navbar_top").classList.remove("fixed-top");
+            // remove padding top from body
+            document.body.style.paddingTop = "0";
+          }
+        });
+      });
+  
     </script>
     <script src="assets/js/main.js"></script>
 </body>
